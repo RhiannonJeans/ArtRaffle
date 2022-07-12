@@ -2,15 +2,16 @@
 
 These scripts are designed to programmatically generate the winner of a Twitter art raffle. I ran art raffles on Twitter by making a single post which people are instructed to follow + like + retweet in order to enter. These scripts will programmatically extract your followers, the likes and retweets on the post, and then find the intersection between them. It will then randomize the list to pick the winner.
 
-These scripts were originally set up in Anaconda Navigator and run in Jupiter Notebooks. It uses Python 3.8.5 and I have included a list of packages in my environment in the environment.yml file. You can build the environment with the following code:
-
-conda env create -f environment.yml
-
 ## Motivations
 I decided to use Python owing to the open source nature of the Tweepy API. At the time I made these scripts I was also teaching myself Python. I wanted to overcome the inaccuracy of manually selecting followers for a raffle, I wanted to programmatically find the intersections and randomise the raffle winner so the procedure was fair.
 
 ## How to Install
 First install Anaconda, then create a custom library. I used the Anaconda Navigator to access my Jupiter Notebook files.
+
+### Python Version and Environment.yml
+These scripts were originally set up in Anaconda Navigator and run in Jupiter Notebooks. It uses Python 3.8.5 and I have included a list of packages in my environment in the environment.yml file. You can build the environment with the following code:
+
+  conda env create -f environment.yml
 
 ## How to Use
 To use these scripts you will need a Twitter account, and a post that you want to run the code on. Some of the instructions are specific to the Windows OS. You will need to run the codes which extract data using Tweepy first, then the intersection script last. You will need to add your own variables:
