@@ -33,6 +33,7 @@ Get_Twitter_Likes is listed last of the first 3 as it involves using a web scrap
 
 ## Credits
 Additional credits are included within the file themselves.
+
 [Earth Science Tweepy Tutorial](https://www.earthdatascience.org/courses/use-data-open-source-python/intro-to-apis/twitter-data-in-python/)
 
 [Earth Science Twitter API for Beginners](https://towardsdatascience.com/tweepy-for-beginners-24baf21f2c25)
