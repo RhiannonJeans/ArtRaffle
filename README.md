@@ -1,4 +1,4 @@
-#Python Art Raffle Script
+# Python Art Raffle Script
 
 These scripts are designed to programmatically generate the winner of an art raffle. I ran art raffles on Twitter by making a single post which people are instructed to follow + like + retweet in order to enter. These scripts will programmatically extract your followers, the likes and retweets on the post, and then find the intersection between them. It will then randomize the list to pick the winner.
 
@@ -28,5 +28,7 @@ Get_Twitter_Likes involves using a web scraper called GeckoDriver which involves
 ## Credits
 Additional credits are included within the file themselves.
 [Earth Science Tweepy Tutorial](https://www.earthdatascience.org/courses/use-data-open-source-python/intro-to-apis/twitter-data-in-python/)
+
 [Earth Science Twitter API for Beginners](https://towardsdatascience.com/tweepy-for-beginners-24baf21f2c25)
+
 [Web Scraping with GeckoDriver](https://towardsdatascience.com/data-science-skills-web-scraping-javascript-using-python-97a29738353f)
