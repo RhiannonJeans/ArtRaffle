@@ -18,6 +18,7 @@ To use these scripts you will need a Twitter account, and a post that you want t
 - consumer_secret= ''
 - access_token= ''
 - access_token_secret= ''
+
 These are explained in the Tweepy tutorial links below.
 
 ## Order to Run The Files
@@ -27,7 +28,7 @@ It is recommended to run the files in this order:
 - Get_Twitter_Likes.ipynb
 - ArtRaffle_Intersections.ipynb
 
-Get_Twitter_Likes involves using a web scraper called GeckoDriver which involves additional steps. This is because Twitter Likes are not available in the Tweepy API as they are hidden within the javascript of the website. Be careful when controlling GeckoDriver as this is the most error-prone step (more advice in the file itself).
+Get_Twitter_Likes is listed last of the first 3 as it involves using a web scraper called GeckoDriver which involves additional steps. This is because Twitter Likes are not available in the Tweepy API as they are hidden within the javascript of the website. Be careful when controlling GeckoDriver as this is the most error-prone step (more advice in the file itself).
 
 ## Credits
 Additional credits are included within the file themselves.
